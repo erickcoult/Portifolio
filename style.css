@@ -3,34 +3,60 @@
     margin: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body{
-    background-color: rgba(56, 49, 49, 0.815);
+    background-color: rgba(0, 0, 0, 0.966);
+}
+header{
+    background-color: rgba(235, 16, 16, 0.877);
 }
 h2{
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 20px;
+    font-size: 5rem;
     text-align: center;
 }
-.logo-preto{
-    max-width: 200px;
-    max-height: 200px;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 5%;
-    padding: 50px 50px; 
-}
 nav{
+    font-family: 'Sulphur Point', sans-serif;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
     font-size: 1.5em;
 }
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 50px 50px;
+    padding: 50px 60px;
 }
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font
+    font;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.nick{
+    /* deagradê na fonte */
+    background: linear-gradient(to right, rgb(255, 0, 0)
+    , rgb(168, 60, 41));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.329);
+    
+}
+.logo-preto{
+    max-width: 150px;
+    border-radius: 5%;
+}
+
+.sobre{
+    max-width: 60px;
 }
