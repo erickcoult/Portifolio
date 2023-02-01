@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white
 }
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
@@ -23,13 +24,16 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20px;
+    padding: 20px;
+    margin: 0px 30px;
     font-size: 1.5em;
+    border-style: groove;
+    border-color: white;
 }
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 50px 60px;
+    /* padding: 50px 60px; */
 }
 nav ul li a {
     text-decoration: none;
@@ -37,10 +41,10 @@ nav ul li a {
     font-weight: bold;
     font;
 }
-nav ul li a:hover{
+/* nav ul li a:hover{
     color: red;
     transition: 0.3s;
-}
+} */
 
 .nick{
     /* deagradê na fonte */
@@ -53,10 +57,60 @@ nav ul li a:hover{
     
 }
 .logo-preto{
-    max-width: 150px;
+    max-width: 100px;
     border-radius: 5%;
 }
 
+/* ----------- */
 .sobre{
-    max-width: 60px;
+    display: inline-block;
+    padding: 50px 50px;
 }
+.sobre a:hover{
+    color: red;
+    transition: 0.6s;
+}
+.img-sobre{
+    max-width: 35px;
+}
+
+/* ----------- */
+.projetos{
+    display: inline-block;
+    padding: 50px 50px;
+}
+.projetos a:hover{
+    color: red;
+    transition: 0.6s;
+}
+.img-projetos{
+    max-width: 35px;
+}
+
+/* ----------- */
+.linguagens{
+    display: inline-block;
+    padding: 50px 50px;
+}
+.linguagens a:hover{
+    color: red;
+    transition: 0.6s;
+}
+.img-linguagens{
+    max-width: 35px;
+}
+
+/* ------------*/
+.contato{
+    display: inline-block;
+    padding: 50px 50px;
+}
+.contato a:hover{
+    color: red;
+    transition: 0.6s;
+}
+.img-contato{
+    max-width: 35px;
+}
+
+
