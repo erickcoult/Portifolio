@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body{
-    background-color: rgba(0, 0, 0, 0.966);
+    background-color: rgb(38 28 28);
 }
 header{
     background-color: rgba(235, 16, 16, 0.877);
@@ -112,5 +112,41 @@ nav ul li a {
 .img-contato{
     max-width: 35px;
 }
+.well-come{
+    position: absolute;
+    display: flex;
+}
+.block-one{
+    display: block;
+    margin-left: 5%;
+    background-image: url(imagens/gif-ola-mundo.gif);
 
-
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hi{
+    
+    font-size: 100px;
+    font-weight: bolder;
+    padding: 20px 20px 0px;
+    margin-left: 20px;
+}
+.world{
+    font-size: 100px;
+    font-weight: bolder;
+    padding: 0px 20px;
+    margin-left: 20px;
+    text-indent: 4rem;
+}
+.about{
+    margin: 20px 30px 20px 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: groove;
+    font-size: 2em;
+}
+.about p{
+    text-indent: 16px;
+    text-align: justify;
+    padding: 1.5em;
+}
