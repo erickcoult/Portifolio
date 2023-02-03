@@ -13,19 +13,13 @@ body{
 header{
     background-color: rgba(235, 16, 16, 0.877);
 }
-h2{
-    font-family: 'Roboto Mono', monospace;
-    padding-top: 20px;
-    font-size: 5rem;
-    text-align: center;
-}
 nav{
     font-family: 'Sulphur Point', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 20px;
-    margin: 0px 30px;
+    margin: 30px 30px;
     font-size: 1.5em;
     border-style: groove;
     border-color: white;
@@ -33,19 +27,12 @@ nav{
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    /* padding: 50px 60px; */
 }
 nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font;
 }
-/* nav ul li a:hover{
-    color: red;
-    transition: 0.3s;
-} */
-
 .nick{
     /* deagradê na fonte */
     background: linear-gradient(to right, rgb(255, 0, 0)
@@ -113,7 +100,6 @@ nav ul li a {
     max-width: 35px;
 }
 .well-come{
-    position: absolute;
     display: flex;
 }
 .block-one{
@@ -138,15 +124,39 @@ nav ul li a {
     margin-left: 20px;
     text-indent: 4rem;
 }
-.about{
+.presentation{
     margin: 20px 30px 20px 10px;
     border-width: 1px;
     border-radius: 5px;
     border-style: groove;
     font-size: 2em;
 }
-.about p{
+.presentation p{
     text-indent: 16px;
     text-align: justify;
     padding: 1.5em;
+}
+
+.about-main{
+    padding-top: 30px;
+    margin: 10px 30px;
+    
+}
+.container-main-h2{
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.about-main-h2{
+    text-align: center;
+    margin: 30px;
+    border-style: groove;
+    border-width: 2px;
+    font-size: 4em;
+}
+.about-p{
+    font-size: 1.6em;
+    margin: 10px;
+    padding-bottom: 7px;
+    text-indent: 1.0em;
+    text-align: justify;
 }
