@@ -149,6 +149,7 @@ nav ul li a {
 .about-main-h2{
     text-align: center;
     margin: 30px;
+    border-radius: 4px;
     border-style: groove;
     border-width: 2px;
     font-size: 4em;
