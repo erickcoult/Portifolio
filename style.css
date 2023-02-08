@@ -48,57 +48,20 @@ nav ul li a {
     border-radius: 5%;
 }
 
-/* ----------- */
-.sobre{
+/* -----BARRA DE NAVEGAÇÃO------ */
+.nav-bar{
     display: inline-block;
     padding: 50px 50px;
 }
-.sobre a:hover{
-    color: red;
+.nav-bar a:hover{
+    color: #FFA500;
     transition: 0.6s;
 }
-.img-sobre{
+.img-nav-bar{
     max-width: 35px;
 }
 
-/* ----------- */
-.projetos{
-    display: inline-block;
-    padding: 50px 50px;
-}
-.projetos a:hover{
-    color: red;
-    transition: 0.6s;
-}
-.img-projetos{
-    max-width: 35px;
-}
-
-/* ----------- */
-.linguagens{
-    display: inline-block;
-    padding: 50px 50px;
-}
-.linguagens a:hover{
-    color: red;
-    transition: 0.6s;
-}
-.img-linguagens{
-    max-width: 35px;
-}
-
-/* ------------*/
-.contato{
-    display: inline-block;
-    padding: 50px 50px;
-}
-.contato a:hover{
-    color: red;
-    transition: 0.6s;
-}
-.img-contato{
-    max-width: 35px;
-}
+/*---------HEADER-------------- */
 .well-come{
     display: flex;
 }
@@ -107,11 +70,12 @@ nav ul li a {
     margin-left: 5%;
     background-image: url(imagens/gif-ola-mundo.gif);
 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.068);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .hi{
-    
     font-size: 100px;
     font-weight: bolder;
     padding: 20px 20px 0px;
@@ -137,25 +101,49 @@ nav ul li a {
     padding: 1.5em;
 }
 
+/* ---------TÍTULOS-------------- */
+.container-main-h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px;
+    font-size: 3em;
+}
+.container-main-h2 h2::after{
+    content: '';
+    display: block;
+    width: 90%;
+    height: 3px;
+    background-color: #FFA500;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+/* ------TEXTOS------- */
+
+.text1{
+    display: flex;
+    justify-items: center;
+}
+.img-text{
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 3%;
+    margin-left: 8%;
+    border-radius: 50%;
+    
+}
 .about-main{
     padding-top: 30px;
     margin: 10px 30px;
     
 }
-.container-main-h2{
-    padding-top: 100px;
-    padding-bottom: 10px;
-}
-.about-main-h2{
-    text-align: center;
-    margin: 30px;
-    border-radius: 4px;
-    border-style: groove;
-    border-width: 2px;
-    font-size: 4em;
-}
 .about-p{
-    font-size: 1.6em;
+    max-width: 90%;
+    font-size: 1.2em;
     margin: 10px;
     padding-bottom: 7px;
     text-indent: 1.0em;
