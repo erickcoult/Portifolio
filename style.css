@@ -7,8 +7,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+/* ---------SCROLLBAR-------- */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FFA500;
+    border-radius: 20px;
+}
+
+/* -------------HTML---------- */
 body{
     background-color: rgb(38 28 28);
+    ::webkit
 }
 header{
     background-color: rgba(235, 16, 16, 0.877);
@@ -34,7 +45,6 @@ nav ul li a {
     font-weight: bold;
 }
 .nick{
-    /* deagradê na fonte */
     background: linear-gradient(to right, rgb(255, 0, 0)
     , rgb(168, 60, 41));
 
