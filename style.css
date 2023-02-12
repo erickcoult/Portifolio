@@ -211,6 +211,11 @@ nav ul li a {
 }
 
 /* --------LINGUAGENS-------- */
+.title-lang{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 2em;
+}
 .language{
     display: flex;
     flex-wrap: wrap;
