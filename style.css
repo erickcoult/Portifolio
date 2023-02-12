@@ -61,6 +61,10 @@ nav ul li a {
 }
 
 /*---------APRESENTAÇÃO-------------- */
+.start{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
 .well-come{
     display: flex;
 }
@@ -137,8 +141,7 @@ nav ul li a {
 }
 .about-main{
     padding-top: 30px;
-    margin: 10px 30px;
-    
+    margin: 10px 30px;   
 }
 .about-p{
     max-width: 90%;
@@ -205,4 +208,20 @@ nav ul li a {
     border-radius: 30px;
     border: solid 1px;
     text-decoration: none;
+}
+
+/* --------LINGUAGENS-------- */
+.language{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lang{
+    width: 100%;
+    width: 200px;
+    height: 200px;
+}
+.lang>img{
+    max-width: 170px;
 }
