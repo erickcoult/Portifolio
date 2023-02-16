@@ -31,8 +31,9 @@ nav{
     padding: 20px;
     margin: 30px 30px;
     font-size: 1.5em;
-    border-style: groove;
-    border-color: white;
+    border: solid 2px #FFA500;
+    border-radius: 4px;
+    box-shadow: 4px 3px 8px 0px black;
 
 }
 nav ul li {
@@ -95,7 +96,8 @@ nav ul li a {
     margin: 20px 30px 20px 10px;
     border-width: 1px;
     border-radius: 5px;
-    border-style: groove;
+    border: solid 1px white;
+    box-shadow: 1px 1px 1px 1px black;
     font-size: 2em;
 }
 .presentation p{
