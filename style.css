@@ -223,10 +223,45 @@ nav ul li a {
     justify-content: space-evenly;
 }
 .lang{
+    text-align: center;
     width: 100%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 .lang>img{
     max-width: 170px;
+}
+
+/* --------BARRA PROGRESSO-------- */
+.bar{
+    padding-top: 30px;
+}
+.bar-prog-h{
+background: linear-gradient(to right, #d99666,#f4b459);
+}
+.bar-prog-css{
+    background: linear-gradient(to right, #2196f3,#fafafaaf);
+}
+.bar-prog-p{
+    background: linear-gradient(to right, #3cccdd,#fedc00);
+}
+.bar-prog-js{
+    background: linear-gradient(to right, #ffdf00,#00000044);
+}
+.bar-prog-m{
+    background: linear-gradient(to right, #00758f 70%,#000000b4);
+}
+.bar-prog-c{
+    background: linear-gradient(to right, #009ade,#0092cf);
+}
+.bar-prog-c-s{
+    background: linear-gradient(to right, #b14796,#782379);
+}
+.bar li {
+    width: 100%;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 2px white;
 }
