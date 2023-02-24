@@ -270,8 +270,12 @@ background: linear-gradient(to right, #d99666,#f4b459);
 }
 
 /* --------CONTATO-------- */
+#contatoid{
+    font-size: 1.5em;
+}
 .contact{
     width: 100%;
+    margin-bottom: 5%;
 }
 .contact-info{
     display: flex;
@@ -284,4 +288,8 @@ background: linear-gradient(to right, #d99666,#f4b459);
 .contact-info h3{
     text-align: center;
     padding-bottom: 20px;
+}
+.contact-info ul li{
+    list-style: none;
+
 }
