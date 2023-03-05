@@ -6,6 +6,9 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+:root{
+    --font-one: 'Roboto', sans-serif;
+}
 
 /* ---------SCROLLBAR-------- */
 ::-webkit-scrollbar{
@@ -153,6 +156,20 @@ nav ul li a {
     padding-bottom: 7px;
     text-indent: 1.0em;
     text-align: justify;
+}
+.about-main-2{
+    margin-left: 10px;
+    padding: 38px 5px 0px 5px;
+    justify-content: center;
+}
+.about-main-2 ul{
+    display: flex;
+    margin-left: 6px;
+    font-family: var(--font-one);
+    justify-content: space-evenly;
+}
+.about-main-2 ul li{
+    padding: 6px;
 }
 
 /* --------CARDS---------- */
