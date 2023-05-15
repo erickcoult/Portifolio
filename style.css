@@ -31,7 +31,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
     margin: 0px 0px;
     font-size: 1.5em;
     border-bottom: solid 2px #FFA500;
@@ -206,9 +206,11 @@ nav ul li a {
     height: 170px;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .titulo-card{
-    margin-top: 40px;
+    margin-top: auto;
     text-transform: uppercase;
 }
 .text-card{
