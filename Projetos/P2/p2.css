@@ -44,6 +44,10 @@
     flex-direction: column;
     gap: 25px;
 }
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
 .input-fild{
     display: flex;
     flex-direction: column;

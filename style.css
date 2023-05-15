@@ -206,9 +206,11 @@ nav ul li a {
     height: 170px;
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .titulo-card{
-    margin-top: 40px;
+    margin-top: auto;
     text-transform: uppercase;
 }
 .text-card{
