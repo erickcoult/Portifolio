@@ -10,6 +10,7 @@
 
      <!--LINK PARA USAR ÍCONES ONLINE -FONTAWESOME -->
      <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.css">
+     
 </head>
 
 <body>
@@ -19,25 +20,40 @@
      <ul>
          <div class="nav-bar">
             <img class="img-nav-bar" src="imagens/icone-informações-branco.png" alt="icone-sobre">
-             <li><a href="#">Sobre</a></li>
+             <li class="nav-item"><a href="#">Sobre</a></li>
          </div>
 
          <div class="nav-bar">
             <img class="img-nav-bar" src="imagens/icone-projetos-branco.png" alt="icone-projetos">
-             <li><a href="#">Projetos</a></li>
+             <li class="nav-item"><a href="#">Projetos</a></li>
          </div>
 
          <div class="nav-bar">
             <img class="img-nav-bar" src="imagens/icone-linguagens-branco.png" alt="icone-linguagens">
-             <li><a href="#">Linguagens</a></li>
+             <li class="nav-item"><a href="#">Linguagens</a></li>
          </div>
 
          <div class="nav-bar">
             <img class="img-nav-bar" src="imagens/icone-contato-branco.png" alt="icone-contato">
-             <li><a href="#">Contato</a></li>
+             <li class="nav-item"><a href="#">Contato</a></li>
          </div>
      </ul>
+     <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="imagens/icone-nav-bar-branco.png" alt=""></button>
+     </div>
  </nav>
+
+ <div class="mobile-menu">
+    <ul>
+        <li class="nav-item"><a href="#">Sobre</a></li>
+        <li class="nav-item"><a href="#">Projeto</a></li>
+        <li class="nav-item"><a href="#">Linguagens</a></li>
+        <li class="nav-item"><a href="#">Contato</a></li>
+    </ul>
+
+    
+     </div>
+ </div>
  
  <main>
 <!--------APRESENTAÇÃO---------- -->
@@ -133,7 +149,7 @@
 
     </div>
 
-    <!-- ---LINGUAGENS------- -->
+    <!---------LINGUAGENS---------- -->
     <div class="container-main-h2">
         <h2>Linguagens</h2>
     </div>
@@ -303,7 +319,8 @@
                     </div>
                 </div>
             </div>
-        
+      
  </main>
+ <script src="indexjava.js"></script>  
 </body>
 </html>
