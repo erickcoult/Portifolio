@@ -61,6 +61,7 @@ nav ul li a {
 .logo-preto{
     max-width: 100px;
     border-radius: 5%;
+    display: none;
 }
 
 .mobile-menu-icon{
@@ -76,16 +77,40 @@ nav ul li a {
 
 @media screen and (max-width: 1100px) {
     .logo-preto{
-        display: none;
+        display: block;
+    }
+    nav{
+        border: none;
+        box-shadow: none;
     }
     .nav-bar{
-        padding: 1.5rem 4rem;
+        padding: 8px;
+        font-size: 20px;
+        font-family: var(--font-one);
     }
     .nav-item{
         display: none;
     }
     .img-nav-bar{
         display: none;
+    }
+    .mobile-menu{
+        background-color: rgb(60, 45, 45);
+    }
+    .mobile-menu ul li {
+        background-color: rgb(60, 45, 45);
+        border: solid 2px #FFA500;
+        border-radius: 5px;
+        width: 80%;
+        list-style-type: none;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+    }
+    .mobile-menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
     }
     .mobile-menu-icon{
         display: block;
@@ -104,9 +129,6 @@ nav ul li a {
     .mobile-menu .nav-item{
         display: block;
         padding-top: 1.2rem;
-    }
-    .mobile-menu .login-button{
-        width: 100%;
     }
     .open{
         display: block;
