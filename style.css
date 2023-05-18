@@ -85,23 +85,24 @@ nav ul li a {
     }
     .nav-bar{
         padding: 8px;
+        align-items: center;
+        margin: auto;
+        width: 80%;
         font-size: 20px;
         font-family: var(--font-one);
     }
     .nav-item{
         display: none;
+        padding-bottom: 10px;
+        width: 70%;
+        border-radius: 8px;
     }
     .img-nav-bar{
         display: none;
     }
-    .mobile-menu{
-        background-color: rgb(60, 45, 45);
-    }
     .mobile-menu ul li {
         background-color: rgb(60, 45, 45);
-        border: solid 2px #FFA500;
-        border-radius: 5px;
-        width: 80%;
+        border-bottom: solid 2px #FFA500;
         list-style-type: none;
         display: inline-block;
         text-align: center;
