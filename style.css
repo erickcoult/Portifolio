@@ -23,9 +23,9 @@
 body{
     background-color: rgb(38 28 28);
 }
-@media (max-width: 375px){
+@media (max-width: 376px){
     body{
-        max-width: 375px;
+        width: 375px;
         overflow-x: hidden;
         border: solid rgba(0, 0, 255, 0.274);
     }
@@ -82,7 +82,7 @@ nav ul li a {
     max-width: 35px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .logo-preto{
         display: block;
         max-width: 70px;
@@ -193,7 +193,7 @@ nav ul li a {
     text-align: justify;
     padding: 1.5em;
 }
-@media (max-width: 375px){
+@media (max-width: 376px){
    .start{
         margin-top: 0px;
         padding-bottom: 50px;
@@ -249,7 +249,7 @@ nav ul li a {
     margin-left: 20%;
     margin-top: 2%;
 }
-@media (max-width: 375px){
+@media (max-width: 376px){
     .container-main-h2{
         padding-top: 60px;
         font-size: 1.8em;
@@ -296,7 +296,7 @@ nav ul li a {
 .about-main-2 ul li{
     padding: 6px;
 }
-@media (max-width: 375px){
+@media (max-width: 376px){
     .img-text{
         max-width: 200px;
         max-height: 200px;
@@ -316,13 +316,14 @@ nav ul li a {
         
     }
     .about-main-2 ul{
-       flex-direction: column;
+       flex-direction: row;
        justify-content: center;
     }
     .about-main-2 ul li{
-        margin-left: 10px;
+        font-size: 11px;
+        margin-left: 8px;
         padding: 3px;
-        flo
+        word-wrap: break-word;
     }
 }
 
@@ -465,4 +466,9 @@ background: linear-gradient(to right, #d99666,#f4b459);
 .contact-info ul li{
     list-style: none;
 
+}
+@media (max-width: 376px){
+    .contact{
+        display: none;
+    }
 }
