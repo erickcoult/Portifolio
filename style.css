@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 :root{
     --font-one: 'Roboto', sans-serif;
+    --font-two: 'Sulphur Point', sans-serif;
 }
 
 /* ---------SCROLLBAR-------- */
@@ -25,9 +26,8 @@ body{
 }
 @media (max-width: 376px){
     body{
-        width: 375px;
+        width: auto;
         overflow-x: hidden;
-        border: solid rgba(0, 0, 255, 0.274);
     }
 }
 
@@ -82,7 +82,7 @@ nav ul li a {
     max-width: 35px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 376px){
     .logo-preto{
         display: block;
         max-width: 70px;
@@ -92,7 +92,7 @@ nav ul li a {
         box-shadow: none;
         padding: 0px;
         margin: 0px;
-        max-width: 375px;
+        width: 105%;
     }
     .nav-bar{
         padding: 8px;
@@ -214,6 +214,7 @@ nav ul li a {
     .world{
         font-size: 55px;
         margin-left: 10px;
+        margin-bottom: 90px;
         padding: 0px 10px;
         text-indent: 2rem;
     }
@@ -221,11 +222,16 @@ nav ul li a {
         display: flex;
         flex-direction: column;
         font-size: 1.3em;
-        margin-top: 10vh;
+        width: 100vw;
+        margin: 0px 10px;
+
     }
     .presentation p{
         text-indent: 10px;
+        font-size: 20px;
+        word-spacing: 0px;
         padding: 10px;
+
     }
 }
 
@@ -252,7 +258,7 @@ nav ul li a {
 @media (max-width: 376px){
     .container-main-h2{
         padding-top: 60px;
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 }
 
@@ -275,7 +281,6 @@ nav ul li a {
     margin: 10px 30px;   
 }
 .about-p{
-    max-width: 90%;
     font-size: 1.2em;
     margin: 10px;
     padding-bottom: 7px;
@@ -306,14 +311,20 @@ nav ul li a {
         flex-direction: column;
         margin-left: auto;
     }
+    .about-main{
+        margin: 10px 0px 0px 8px;
+    }
     .about-p{
+        display: flex;
         flex-direction: column;
+        font-family: var(--font-two);
         font-size: 1.1em;
     }
     .about-main-2{
+        margin-top: 30px;
         padding: 0px;
         font-size: 12px;
-        
+        font-family: var(--font-two);
     }
     .about-main-2 ul{
        flex-direction: row;
@@ -322,9 +333,19 @@ nav ul li a {
     .about-main-2 ul li{
         font-size: 11px;
         margin-left: 8px;
+        list-style-type: none;
+        position:relative;
+        margin-bottom:0.5em;
         padding: 3px;
         word-wrap: break-word;
     }
+    .about-main-2 ul li:before {
+        content: '•';
+        display: inline-block;
+        position: absolute;
+        left: -5px;
+        color: #FFA500;
+      }
 }
 
 /* --------CARDS---------- */
@@ -359,7 +380,7 @@ nav ul li a {
     height: 100%;
 }
 .body-card{
-    height: 170px;
+    height: auto;
     padding: 20px;
     text-align: center;
     display: flex;
@@ -368,9 +389,11 @@ nav ul li a {
 .titulo-card{
     margin-top: auto;
     text-transform: uppercase;
+    font-family: var(--font-one);
 }
 .text-card{
     font-size: 1.4rem;
+    font-family: var(--font-one);
     padding-bottom: 15px;
     margin-top: 15px;
 }
@@ -385,6 +408,22 @@ nav ul li a {
     border-radius: 30px;
     border: solid 1px;
     text-decoration: none;
+}
+
+@media (max-width: 376px){
+    .container-card{
+        height: 400px;
+    }
+    .card{
+        height: 176px;
+    }
+    .text-card{
+        font-size: 14px;
+    }
+    .titulo-card{
+        font-size: 22px;
+        margin: 0px;
+    }
 }
 
 /* --------LINGUAGENS-------- */
@@ -407,6 +446,14 @@ nav ul li a {
 }
 .lang>img{
     max-width: 170px;
+}
+@media (max-width: 376px){
+    .title-lang{
+        font-size: 1.3em;
+    }
+    .lang img{
+        max-width: 100px;
+    }
 }
 
 /* --------BARRA PROGRESSO-------- */
@@ -435,7 +482,6 @@ background: linear-gradient(to right, #d99666,#f4b459);
     background: linear-gradient(to right, #b14796,#782379);
 }
 .bar li {
-    width: 100%;
     width: 50px;
     display: inline-block;
     text-align: center;
@@ -468,7 +514,7 @@ background: linear-gradient(to right, #d99666,#f4b459);
 
 }
 @media (max-width: 376px){
-    .contact{
-        display: none;
+    #contatoid{
+        font-size: 1.3em;
     }
-}
+
