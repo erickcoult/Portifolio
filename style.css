@@ -284,6 +284,7 @@ nav ul li a {
 .about-p{
     font-size: 1.2em;
     margin: 10px;
+    font-family: var(--font-two);
     padding-bottom: 7px;
     text-indent: 1.0em;
     text-align: justify;
@@ -292,6 +293,7 @@ nav ul li a {
     margin-left: 10px;
     padding: 38px 5px 0px 5px;
     justify-content: center;
+    font-family: var(--font-two);
 }
 .about-main-2 ul{
     display: flex;
@@ -318,14 +320,13 @@ nav ul li a {
     .about-p{
         display: flex;
         flex-direction: column;
-        font-family: var(--font-two);
         font-size: 1.1em;
+        text-align: center;
     }
     .about-main-2{
         margin-top: 30px;
         padding: 0px;
         font-size: 12px;
-        font-family: var(--font-two);
     }
     .about-main-2 ul{
        flex-direction: row;
@@ -506,16 +507,26 @@ background: linear-gradient(to right, #d99666,#f4b459);
 .contact-info a{
     text-decoration: none;
 }
-.contact-info h3{
+.cont-soc{
     text-align: center;
-    padding-bottom: 20px;
 }
-.contact-info ul li{
-    list-style: none;
+.cont-text{
+    padding-top: 15px;
+}
+.cont-text:hover{
+    color: #fffb00;
+    transition: 0.7s;
+}
+i:hover{
+    color: #fffb00;
+    transition: 0.7s;
+}
 
-}
 @media (max-width: 376px){
     #contatoid{
         font-size: 1.3em;
     }
-
+    .cont-text{
+        display: none;
+    }
+}
